@@ -1,57 +1,67 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD AN INTRODUCTION ABOUT YOUR PROJECT
-___
+---
+layout: home
+permalink: index.html
+repository-name: e14-3yp-Automated-Electricity-Billing-System
+title: Automated Electricity Billing System
+---
+# Automated Electricity Billing System
 
-# eYY-3yp-project-template
+---
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+## Team
+-  E/14/018, ANURADHA WIJEWICKRAMA, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
+-  E/14/068, DE SILVA N.G.M.H.K, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
+-  E/14/243, Name, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
 
-### Enable GitHub Pages
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Solution Architecture](#solution-architecture )
+3. [Hardware & Software Designs](#hardware-and-software-designs)
+4. [Links](#links)
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
+---
 
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
+## Introduction
 
-### Special Configurations
+    In present world embedded systems have become essential as every electronic and 
+    electrical day to day devices use the particular system for it's functionality.
+    Here our target is to achieve an automated and centralized electricity billing system with more security and efficiency.
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+Functionalities of the new system
+    
+    * Accurate meter reading
+    * Can get update about the connection frequently
+    * Digital display for customers
+    * Customer can identify the trend of usage of the electricity
 
-```
-{
-  "title": "This is the title of the project",
-  "team": [
-    {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
-    }
-  ],
-  "tags": ["Web", "Embedded Systems"]
-}
-```
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool).
 
-### Page Theme
+## Solution Architecture
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_ and use HTML based website.
+    CO321    -    It's planned to implement a new device to measure the current,
+                  to transmit the data to the regional office and to display the certain facts to the customer using embedded systems.
+    CO324    -    Data is to be transmitted to the regional office and from regional units then to a centralized server.
+    CO325    -    Data has to be secured as a third party or the customer may try to alter. Device also has to be secured.
+
+## Hardware and Software Designs
+
+### Implementation of current measuring system
+![image](https://user-images.githubusercontent.com/73756777/120460468-c9adb200-c3b6-11eb-9ff1-aa0cb696f0e8.png)
+### When setting up the unique id display shows some relevent detalis
+![image](https://user-images.githubusercontent.com/73756777/120460544-d92cfb00-c3b6-11eb-9b4f-726617266c87.png)
+![image](https://user-images.githubusercontent.com/73756777/120460528-d5997400-c3b6-11eb-8bcc-fb3030fea30c.png)
+
+
+
+## Links
+
+- <a href = "https://github.com/cepdnaclk/e14-3yp-Automated-Electricity-Billing-System" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e14-3yp-Automated-Electricity-Billing-System/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+
+
+
+[//]: # (Please refer this to learn more about Markdown syntax)
+[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
