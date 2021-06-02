@@ -1,73 +1,65 @@
 ---
 layout: home
 permalink: index.html
-
-# Please update this with your repository name and title
-repository-name: eYY-3yp-project-template
-title:
+repository-name: e14-3yp-Automated-Electricity-Billing-System
+title: Automated Electricity Billing System
 ---
-
-[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
-
-# Project Title
+# Automated Electricity Billing System
 
 ---
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/14/018, ANURADHA WIJEWICKRAMA, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
+-  E/14/068, DE SILVA N.G.M.H.K, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
+-  E/14/243, Name, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Solution Architecture](#solution-architecture )
 3. [Hardware & Software Designs](#hardware-and-software-designs)
-4. [Testing](#testing)
-5. [Detailed budget](#detailed-budget)
-6. [Conclusion](#conclusion)
-7. [Links](#links)
+4. [Links](#links)
 
 ---
 
 ## Introduction
 
-Description of the real world problem and solution, impact
+    In present world embedded systems have become essential as every electronic and 
+    electrical day to day devices use the particular system for it's functionality.
+    Here our target is to achieve an automated and centralized electricity billing system with more security and efficiency.
 
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
+Functionalities of the new system
+    
+    * Accurate meter reading
+    * Can get update about the connection frequently
+    * Digital display for customers
+    * Customer can identify the trend of usage of the electricity
 
-![Sample Image](./images/sample.png)
 
 
 ## Solution Architecture
 
-High level diagram + description
+    CO321    -    It's planned to implement a new device to measure the current,
+                  to transmit the data to the regional office and to display the certain facts to the customer using embedded systems.
+    CO324    -    Data is to be transmitted to the regional office and from regional units then to a centralized server.
+    CO325    -    Data has to be secured as a third party or the customer may try to alter. Device also has to be secured.
 
 ## Hardware and Software Designs
 
-Detailed designs with many sub-sections
+### Implementation of current measuring system
+![image](https://user-images.githubusercontent.com/73756777/120460468-c9adb200-c3b6-11eb-9ff1-aa0cb696f0e8.png)
+### When setting up the unique id display shows some relevent detalis
+![image](https://user-images.githubusercontent.com/73756777/120460544-d92cfb00-c3b6-11eb-9b4f-726617266c87.png)
+![image](https://user-images.githubusercontent.com/73756777/120460528-d5997400-c3b6-11eb-8bcc-fb3030fea30c.png)
 
-## Testing
 
-Testing done on hardware and software, detailed + summarized results
-
-## Detailed budget
-
-All items and costs
-
-| Item          | Quantity  | Unit Cost  | Total  |
-| ------------- |:---------:|:----------:|-------:|
-| Sample item   | 5         | 10 LKR     | 50 LKR |
-
-## Conclusion
-
-What was achieved, future developments, commercialization plans
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
-- [University of Peradeniya](https://eng.pdn.ac.lk/)
+- <a href = "https://github.com/cepdnaclk/e14-3yp-Automated-Electricity-Billing-System" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e14-3yp-Automated-Electricity-Billing-System/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+
 
 
 [//]: # (Please refer this to learn more about Markdown syntax)
