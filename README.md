@@ -9,9 +9,9 @@ title: Automated Electricity Billing System
 ---
 
 ## Team
--  E/14/018, ANURADHA WIJEWICKRAMA, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
--  E/14/068, DE SILVA N.G.M.H.K, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
--  E/14/243, Name, [e14018@eng.pdn.ac.lk](mailto:e14018@eng.pdn.ac.lk)
+-  E/14/018, ANURADHA WIJEWICKRAMA, [e14018@ce.pdn.ac.lk](mailto:e14018@ce.pdn.ac.lk)
+-  E/14/068, DE SILVA N.G.M.H.K, [e14018@ce.pdn.ac.lk](mailto:e14018@ce.pdn.ac.lk)
+-  E/14/243, Name, [e14018@ce.pdn.ac.lk](mailto:e14018@ce.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -58,7 +58,7 @@ Functionalities of the new system
 - <a href = "https://github.com/cepdnaclk/e14-3yp-Automated-Electricity-Billing-System" target = "_blank"> Project Repository </a>
 - <a href = "https://cepdnaclk.github.io/e14-3yp-Automated-Electricity-Billing-System/" target = "_blank">Project Page</a>
 - <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
-- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+- <a href = "https://ce.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
 
 
 
